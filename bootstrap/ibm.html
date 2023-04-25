@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="ibm.css">
+    <title>Ibm</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2 sidebar">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-dark">Home</li>
+                <li class="list-group-item list-group-item-dark">Dashabord</li>
+                <li class="list-group-item list-group-item-dark">Events</li>
+                <li class="list-group-item list-group-item-dark">Home</li>
+                <li class="list-group-item list-group-item-dark">Dashabord</li>
+                <li class="list-group-item list-group-item-dark">Events</li>
+                <li class="list-group-item list-group-item-dark">Home</li>
+                <li class="list-group-item list-group-item-dark">Dashabord</li>
+                <li class="list-group-item list-group-item-dark">Events</li>
+                <li class="list-group-item list-group-item-dark">Home</li>
+                <li class="list-group-item list-group-item-dark">Dashabord</li>
+                <li class="list-group-item list-group-item-dark">Events</li>
+                <li class="list-group-item list-group-item-dark">Home</li>
+                <li class="list-group-item list-group-item-dark">Dashabord</li>
+                <li class="list-group-item list-group-item-dark">Events</li>
+                <li class="list-group-item list-group-item-dark">Home</li>
+                <li class="list-group-item list-group-item-dark">Dashabord</li>
+                <li class="list-group-item list-group-item-dark">Events</li>
+                <li class="list-group-item list-group-item-dark">Home</li>
+                <li class="list-group-item list-group-item-dark">Dashabord</li>
+                <li class="list-group-item list-group-item-dark">Events</li>
+                <li class="list-group-item list-group-item-dark">Home</li>
+                <li class="list-group-item list-group-item-dark">Dashabord</li>
+                <li class="list-group-item list-group-item-dark">Events</li>
+            </ul>
+        </div>
+        <div class="col-10 main-content">
+            <h2>Inspections</h2>
+            <div class="row pt-4">
+              <button class="col-2 btn btn-primary mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Add new Record</button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Feedback</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-6">
+                          <label class="input-label">Username</label>
+                          <input type="text" name="text" class="form-control" placeholder="Enter your Username">
+                        </div>
+                        <div class="col-6">
+                          <label class="input-label">Firstname</label>
+                          <input type="text" name="text" class="form-control" placeholder="Enter your Firstname">
+                        </div>
+                        <div class="col-6">
+                          <Label class="input-label">Lastname</label>
+                          <input type="text" name="text" class="form-control" placeholder="Enter your Lastname">
+                        </div>
+                        <div class="col-6">
+                          <label class="input-label">Email</label>
+                          <input type="email" name="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="col-6">
+                          <label class="input-label">Password</label>
+                          <input type="password" name="password" class="form-control" placeholder="Enter your Password">
+                        </div>
+                        <div class="col-6">
+                          <label class="input-label">Mobile</label>
+                          <input type="mobile" name="password" class="form-control" placeholder="Enter your mobile">
+                        </div>
+                        <div class="col-6">
+                          <label class="input-label">Countries</label>
+                          <select class="form-control">
+                            <option value="">India</option>
+                            <option value="">Usa</option>
+                            <option value="">Uk</option>
+                          </select>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check p-2">
+                            <input class="form-chcek-input" type="checkbox" value="" id="formcheck" disabled checked>
+                            <label class="form-check-label" for="formcheck">Male</label>
+                          </div>
+                          <div class="form-check p-2">
+                            <input class="form-chcek-input" type="checkbox" value="" id="formcheck">
+                            <label class="form-check-label" for="formcheck">FeMale</label>
+                          </div>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            Yes
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                          <label class="form-check-label" for="flexRadioDefault1">
+                            No
+                          </label>
+                        </div>
+                        <div class="form-check form-switch">
+                          <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                          <label class="form-check-label" for="flexSwitchCheckDefault">yes</label>
+                        </div>
+                        <label for="customRange1" class="form-label">Example range</label>
+                        <input type="range" class="form-range" id="customRange1">
+                        <div class="mb-3">
+                          <label for="formFile" class="form-label">Default file input example</label>
+                          <input class="form-control" type="file" id="formFile">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                      <button type="button" class="btn btn-success" data-bs-dismiss="modal">submit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-10 text-end">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Save
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Save</a></li>
+                      <li><a class="dropdown-item" href="#">Pdf</a></li>
+                      <li><a class="dropdown-item" href="#">Print</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item">Something else here</a></li>
+                    </ul>
+                  <button type="button" class="btn btn-secondary">Download</button>
+                  <button type="button" class="btn btn-info">Print</button>
+              </div>
+            </div>
+            </div>
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col"><input class="form-chcek-input" type="checkbox" value="" id="formcheck"></th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Sam</th>
+                    <th scope="col">professional</th>
+                    <th scope="col">value</th>
+                    <th scope="col">value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><input class="form-chcek-input" type="checkbox" value="" id="formcheck"></th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><input class="form-chcek-input" type="checkbox" value="" id="formcheck"></th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><input class="form-chcek-input" type="checkbox" value="" id="formcheck"></th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="progress">
+                <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" style="width: 26%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">26%</div>
+              </div><br>
+              <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div><br>
+              <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-border text-secondary" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-border text-success" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-border text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-border text-warning" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-border text-info" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-border text-light" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-border text-dark" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <br>
+              <div class="col-2">
+              <button class="btn btn-primary" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                <span class="visually-hidden">Loading...</span>
+              </button>
+              <button class="btn btn-primary" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Submiting...
+              </button>
+              </div>
+                <h3>Add Inspection Forms</h3>
+                <form>
+                <div class="col-4"> 
+                  <label class="form-label text-primary">Inspection Title</label>
+                  <input type="text" name="name" class="form-control">
+                  <label class="form-label text-primary">Description</label>
+                  <textarea name="text-area" id="description" class="form-control"></textarea>
+                  <label class="form-label text-primary">Email</label>
+                  <input type="email" name="text-area" id="description" class="form-control">
+                  <label class="form-label text-primary">Email</label>
+                  <input type="email" name="email" id="description" class="form-control"><br>
+                  <label class="form-label text-primary">Country</label>
+                  <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option selected>Select contry</option>
+                    <option value="1">India</option>
+                    <option value="2">Usa</option>
+                    <option value="3">Uk</option>
+                  </select>
+                  <label class="form-label text-primary">Mobile</label>
+                  <input type="phone" name="mobile" id="description" class="form-control">
+                  <br><div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      cream layer
+                    </label>
+                  </div>
+                </div>
+                </div>
+                <div>
+                  <label class="form-check-label" for="phoneavailable">Available Phone
+                  <input class="form-check-input" type="radio" name="phoneavailable" id="phoneyes"> Yes
+                  <input class="form-check-input" type="radio" name="phoneavailable" id="phoneno"> No
+                  </label>
+                </div>
+                <input type="submit" class="btn btn-primary" value="submit">
+              </form>
+              <h5>Bootstrap range</h5>
+              <div>
+                <label class="form-label" for="bootstraprange"></label>
+                <input type="range" name="form-range" id="bootstraprange">
+                <label class="form-label" for="bootstraprange"></label>
+                <input type="range" name="form-range" id="bootstraprange" disabled>
+                <label class="form-label" for="bootstraprange"></label>
+                <input type="range" name="form-range" id="bootstraprange" min="5" max="10">
+              </div>
+              <h2>Bootstrap figure</h2>
+              <div class="card">
+                <div class="card-content p-3">
+                  <div class="row">
+                    <div class="col">
+                      <figure>
+                        <img src="https://via.placeholder.com/150" class="figure-img img-fluid rounded" alt="">
+                        <figcaption>They are trying to remove</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col">
+                      <figure>
+                        <img src="https://via.placeholder.com/150" class="figure-img img-fluid rounded" alt="">
+                        <figcaption>They are trying to remove</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col">
+                      <figure>
+                        <img src="https://via.placeholder.com/150" class="figure-img img-fluid rounded" alt="">
+                        <figcaption>They are trying to remove</figcaption>
+                      </figure>
+                    </div>
+                    <div class="col">
+                      <figure>
+                        <img src="https://via.placeholder.com/150" class="figure-img img-fluid rounded" alt="">
+                        <figcaption>They are trying to remove</figcaption>
+                      </figure>
+                    </div>
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="https://via.placeholder.com/50x50" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://via.placeholder.com/50x50" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://via.placeholder.com/50x50" class="d-block w-100" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <h4>Breadcrumbs</h4>
+                    <div class="card">
+                      <div class="card-content"style="--bs-breadcrumb-divider: '>';">
+                        <nav aria-label="breadcrumb">
+                          <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#">Home</a></li>
+                          <li class="breadcrumb-item"><a href="#">Library</a></li>
+                          <li class="breadcrumb-item">data</li>
+                          </ol>
+                        </nav>
+                      </div>
+                    </div>
+                    <h5>Accordians</h5>
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Personal
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Professional
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            public
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card bg-dark">
+                      <div class="card-content p-3">
+                        <ul class="nav nav-pills">
+                          <li class="nav-item">
+                            <a class="nav-link active" href="">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="">Product</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="">Buy</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+              
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              
+              <div class="card" aria-hidden="true">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title placeholder-glow">
+                    <span class="placeholder col-6"></span>
+                  </h5>
+                  <p class="card-text placeholder-glow">
+                    <span class="placeholder col-7"></span>
+                    <span class="placeholder col-4"></span>
+                    <span class="placeholder col-4"></span>
+                    <span class="placeholder col-6"></span>
+                    <span class="placeholder col-8"></span>
+                  </p>
+                  <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+                </div>
+              </div>
+              <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading1">First</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                <h4 id="scrollspyHeading1">First heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorum maiores consectetur praesentium quae repellendus modi magnam voluptate exercitationem similique ad eos commodi expedita earum beatae ipsa eveniet, eum aspernatur dignissimos a officia! Voluptate ullam maxime mollitia velit omnis, quod harum porro officiis quos, alias inventore quaerat? Dolores repudiandae voluptates totam numquam dolorum nobis ipsum pariatur. Ea aut quas illum natus expedita atque rerum praesentium vel ipsam? Neque maiores facere possimus mollitia blanditiis, nesciunt inventore reiciendis aut culpa earum sit enim atque velit accusantium doloribus perspiciatis! Iste aspernatur corporis dolorem, laudantium asperiores eos enim explicabo, excepturi iure fugiat dolore qui!</p>
+                <h4 id="scrollspyHeading2">Second heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tempore vero similique nisi tenetur animi quo suscipit quisquam ipsum quam explicabo, natus et quis maxime dolores delectus neque. Eius necessitatibus pariatur fugiat beatae debitis unde esse consequatur, nesciunt adipisci nemo, error architecto fuga porro quisquam dignissimos fugit cumque tempore voluptatibus nihil ad expedita. Deserunt reprehenderit eligendi ut qui. Nesciunt, libero consectetur soluta commodi illo perspiciatis tenetur dolores numquam cumque similique sunt provident, ipsam quisquam. Minima libero eveniet cupiditate recusandae magnam hic iusto corrupti maxime delectus ipsam, laborum incidunt iste nobis aliquam, debitis quae fuga temporibus explicabo quis iure exercitationem similique molestias repudiandae. Consectetur necessitatibus, aliquam saepe illo mollitia cumque rerum veritatis dicta incidunt sed non, molestiae ad sit itaque atque suscipit iste nihil, culpa ratione quos officiis! Dicta possimus, placeat sint esse ratione dolores culpa, eaque, nihil provident dolorem ducimus? Dolorem ea repellat sed nisi magnam tempore blanditiis quas doloribus magni aliquam cum voluptatem ipsa quae, maxime sint veniam. Nostrum, quia recusandae velit vero non natus perspiciatis molestias beatae voluptatibus quo nihil accusantium unde debitis ullam libero reprehenderit qui esse accusamus commodi possimus? Autem nobis minus eius necessitatibus eligendi maxime, quae, ipsa aliquam cupiditate iure hic velit. Et quae tempore voluptatem suscipit sapiente veritatis harum necessitatibus dolorem unde voluptatum ea sequi magni, sit porro, laudantium numquam natus quasi quia dignissimos nam id repellat animi. Nihil consequuntur, aliquam non dolorum provident explicabo aut inventore at impedit molestias enim nulla incidunt autem odit repellendus in nisi, ipsum perferendis commodi ex? Id, amet veniam natus optio sapiente atque, repudiandae doloribus voluptates accusantium tenetur molestias. Doloribus incidunt nobis fugiat culpa minima. Aliquid illum tenetur consequatur nam dolorum. Quisquam reiciendis quam corrupti ipsam. Consequatur pariatur sequi quam aut est, expedita illum magni tenetur doloremque suscipit magnam, nesciunt exercitationem cum accusamus enim nobis a dolore quasi? Harum accusamus eaque voluptate, nesciunt dolores possimus molestiae assumenda quaerat reiciendis esse officia neque similique ipsa minima quisquam ipsam nam sed doloribus sapiente? Accusantium cum tenetur optio expedita provident ab fugiat nisi velit quidem quisquam voluptatum dignissimos, nostrum facilis illum aspernatur perferendis, autem ex vitae suscipit molestiae amet maxime? Quia id incidunt voluptas porro sit, quasi reiciendis ad, illo, expedita fugiat fugit? Quia eveniet dolore deserunt voluptatem, vitae quibusdam aliquid sed, amet dolor atque sit eaque inventore eos sint? Tempora tenetur placeat sed. Magnam, praesentium. Quidem cum animi quis alias doloremque, natus, dolorem velit rerum incidunt autem harum odit dolores consectetur minima exercitationem cupiditate quam tempore consequuntur. Sint earum voluptate voluptatum sapiente soluta, beatae ab cupiditate neque ipsum sed vero dolores voluptatibus, fuga quidem perferendis aliquid impedit voluptas consequatur praesentium? Molestias laboriosam ab, enim unde aspernatur maiores. Quae nobis, vero ex sunt eius libero. Ex quaerat asperiores fugit consequuntur dicta ratione fugiat error esse iure qui iste, consectetur quod nemo autem suscipit doloribus corrupti quidem magni iusto nihil facilis debitis vitae eum. Quasi iusto rem quia architecto, error labore laudantium expedita praesentium? Ex blanditiis explicabo quia accusantium quis necessitatibus tempore! Dignissimos, fugiat praesentium temporibus aliquam itaque nihil perspiciatis minima ad nobis accusamus ex ducimus nesciunt minus velit aut necessitatibus. Impedit sint laborum quas qui commodi ipsa mollitia voluptatem asperiores maxime voluptate velit, sit nisi in amet cum laboriosam sed quaerat aut porro tempore quos incidunt quod non ut? Culpa commodi saepe, corrupti cumque id eligendi enim nesciunt temporibus autem? Adipisci, suscipit. Eos fugiat consectetur vel voluptatem repudiandae a aliquam! Quis perferendis enim odit exercitationem distinctio totam eos facere quam, voluptates sequi atque. Autem nam ab, nisi, aliquid ipsam numquam quas maxime quia corporis eius modi quos pariatur officia tenetur excepturi nostrum dicta unde sed? Eligendi, itaque. Explicabo qui illum nostrum expedita architecto ullam sed rerum nihil perspiciatis facilis consequuntur impedit illo amet magni voluptate dicta, reprehenderit corporis! Ea delectus nam iusto, dolores qui animi id eveniet! Dolorum, veniam! Omnis veniam quas tempore esse repellat. Minus deleniti iure deserunt corporis accusantium vel dignissimos inventore, voluptas, neque, maiores molestias magni reiciendis eius non consequuntur quam sapiente itaque ipsam tempora architecto voluptatibus? Exercitationem autem tempora architecto tenetur molestiae, labore, ut distinctio impedit ipsum, ea aperiam delectus quisquam odit! Cum labore iure ullam quo sequi quis provident similique, dolorem magnam temporibus neque, dignissimos accusantium quia vel maxime asperiores! Hic, quo. Corporis accusamus veritatis blanditiis eius ipsum autem sint magni expedita cupiditate natus repudiandae aspernatur illum alias sed consequatur nostrum harum laudantium, rem, dolorum aperiam vero quod vitae suscipit. Laudantium cumque voluptatibus autem nostrum sunt molestias qui cupiditate odit, alias consequatur odio iste natus, temporibus fugiat. Consequuntur voluptate atque cum totam eaque necessitatibus labore magni quidem porro eius praesentium accusantium soluta quia deserunt animi qui excepturi, eum ad facilis repellendus, autem quas facere distinctio? Repellendus officia quaerat cumque reiciendis, reprehenderit esse corporis eius voluptatibus ex est modi doloremque nemo magnam quas rem doloribus error aspernatur neque itaque corrupti aliquid. Reiciendis, magnam deleniti laudantium natus dolorum eaque totam distinctio. Enim quo neque ratione mollitia alias aliquid aspernatur quod, vel maiores recusandae nam omnis ea id a modi, impedit natus architecto numquam. Consequuntur totam quis eligendi quia amet sed ea, quaerat labore autem fugit accusamus? Reiciendis, distinctio impedit vel odit laboriosam explicabo adipisci nihil at minus iste cum vitae rem porro eius, earum saepe incidunt, hic nemo dolores aspernatur ad blanditiis fugit nobis cupiditate. Delectus, voluptate ab tempore, deserunt consequuntur, fugit dolorem nam est alias consectetur labore assumenda inventore voluptatum quaerat necessitatibus voluptatibus laboriosam magnam unde praesentium aspernatur. Suscipit quam dolor sed reiciendis corporis laudantium repellendus aliquid perspiciatis est? Aspernatur sunt modi vero sed! Ratione, error voluptates. Quam ullam praesentium voluptatem labore autem hic deleniti placeat, dolore consequatur, a ratione error inventore quo excepturi perspiciatis numquam, animi omnis repellendus blanditiis dolor officia ab quos. Aut quibusdam itaque, recusandae quidem vel consectetur numquam ipsam maiores maxime quae possimus totam iusto corporis ex molestiae tempore unde. Atque explicabo inventore ea sit vitae deleniti culpa aperiam voluptatum, repudiandae iste nobis sint obcaecati dolores dolorum consectetur id quisquam illo rem soluta sed doloribus impedit cum. Natus dolor sed nostrum pariatur praesentium sint maiores dignissimos porro, alias sit laborum. Omnis, provident deserunt.</p>
+                <h4 id="scrollspyHeading3">Third heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eos earum inventore exercitationem soluta hic ducimus quibusdam laborum deleniti minus unde, aut nulla velit quae quasi dicta rem? Reiciendis odio suscipit impedit autem accusantium nisi nesciunt laboriosam eius provident recusandae in, tempora repellendus exercitationem ea labore dolorum cumque quidem rem, harum molestias libero nulla maxime et. Sequi nesciunt aliquam qui eius maiores eligendi dolore recusandae nihil dolorum libero sit similique ipsa laborum saepe exercitationem, rem architecto fuga consequatur nulla officia magni autem totam eum! Ex iure eius voluptatum expedita eos autem dicta quasi! In eaque incidunt perferendis inventore ut possimus voluptate, non dolorem consectetur culpa aut voluptatum itaque, hic praesentium ea error. Dolore, minima sit itaque aperiam blanditiis ratione ex molestiae vero ab deserunt necessitatibus maiores? Ratione debitis nam corporis distinctio cumque! Aspernatur ipsum quasi omnis natus corporis magni eveniet earum architecto nobis? Veritatis consequatur totam optio ratione odio libero explicabo. Fugiat, ex. Culpa quasi molestiae, consectetur architecto atque ab non ducimus necessitatibus officia voluptate adipisci quos sequi! Ea tempore voluptates voluptas. Ipsum at nostrum recusandae voluptas vero dicta aliquam, id animi laborum illum enim nemo eaque ducimus debitis, necessitatibus laudantium! Iure vel eum, atque, facilis eveniet itaque voluptatibus et, labore dignissimos dolorum ipsum! Delectus, possimus itaque! Explicabo omnis cupiditate aliquid numquam eius, ad eveniet. Quisquam illum harum eum debitis corporis quasi labore, unde repellendus suscipit voluptatem laboriosam, atque molestiae. Dolor necessitatibus beatae similique laborum quas ducimus laboriosam dolores autem, nesciunt earum atque nobis aliquid? Quae tempore distinctio itaque sunt sed illo voluptas. Repudiandae deleniti perferendis veritatis, repellendus officiis assumenda aliquam ut molestiae nemo aperiam, eum est doloremque nihil obcaecati, adipisci quas libero cumque? Corrupti est natus quod esse nisi, nam in itaque commodi. Voluptate, quos illum. Consectetur maxime libero esse at quos earum enim deserunt sapiente reiciendis delectus. Ea ratione labore, nesciunt exercitationem fuga architecto voluptates, dolore perspiciatis quo quod placeat impedit earum inventore dicta minima ipsam voluptatem. Error et expedita esse delectus velit molestiae, maxime explicabo ut voluptas doloremque dignissimos iste soluta? A nemo dolore corrupti qui dolor perferendis ex ad quod totam magnam assumenda tenetur, cumque enim molestias aperiam doloremque quibusdam accusamus error repellat recusandae hic maxime, sunt natus blanditiis. Exercitationem magnam esse perferendis officia natus, delectus cupiditate dignissimos praesentium, est deserunt ducimus beatae doloribus perspiciatis earum ea enim nisi consequuntur illum qui nulla? Similique doloribus ut, eius, incidunt blanditiis asperiores ab inventore iusto rerum provident atque dicta autem facere enim? Error quas iste modi ratione consequatur magnam nam doloribus eveniet, temporibus saepe velit veritatis eius qui beatae quod corporis nulla esse maxime aspernatur, est cupiditate tenetur repellat! Illum sint placeat hic corrupti, porro laborum enim dolor facilis ab quidem vel voluptates voluptate nam magnam? Facilis architecto magnam porro deleniti aliquid aspernatur repudiandae temporibus sunt dolorum officiis modi, ea tenetur itaque dolores quia possimus vitae. Corrupti corporis odit in ad fuga tempore, consectetur voluptatem incidunt ullam ipsa modi quisquam ratione, blanditiis soluta perferendis provident sit illum, natus aut dicta illo itaque totam. Nisi minus neque reprehenderit eos molestiae doloremque quisquam aspernatur libero! Nemo laboriosam dolor fuga neque assumenda expedita, dolore et laudantium officiis earum cum molestias, molestiae vero obcaecati tenetur iste at natus suscipit excepturi pariatur aliquam, adipisci commodi! Sapiente nihil, alias magnam culpa aliquid voluptates ratione possimus sed ut porro voluptatibus consectetur commodi voluptas quia saepe sunt blanditiis aperiam mollitia debitis nisi soluta quam, odio vitae. Libero autem suscipit veritatis sunt id, aspernatur ipsum doloribus recusandae quia totam error reiciendis illo debitis nesciunt accusamus fugiat amet odit blanditiis quibusdam iste! Magnam accusamus corrupti eum dolores voluptatibus debitis nam consectetur ipsam. Recusandae nulla eum possimus, doloremque ab rerum vel enim sed aliquam quia minus natus amet alias repellendus temporibus vitae ratione optio facere. Illum non architecto aliquid, labore, et assumenda, fugit deserunt exercitationem alias nulla magnam veritatis dignissimos suscipit eligendi sed est quasi? Facere, sint saepe voluptatum molestias aut quod natus obcaecati amet placeat, tempore cum temporibus? Maiores rem iure, voluptate nobis ullam in soluta facere, esse hic, inventore nemo. Qui, modi. Mollitia quisquam harum cupiditate sequi vel pariatur minima excepturi beatae accusamus ipsa temporibus consectetur optio dolores perferendis laudantium, accusantium architecto velit eum veritatis doloremque officiis repudiandae molestias. Dolores explicabo repudiandae distinctio? Quasi, placeat eveniet! Corrupti aliquam officia maxime dolorem maiores, sed numquam? Quo voluptas magnam illo temporibus impedit reiciendis dolorum necessitatibus debitis nihil veritatis, consequatur tempora quasi magni iusto voluptatum amet nesciunt. Nihil quibusdam laboriosam laborum minus aliquam eos illo maxime provident consectetur dignissimos sequi doloribus enim nam quam, ab iure consequatur repellendus possimus eligendi voluptas. Quam porro saepe a vitae? Iure minus ratione possimus aliquid, excepturi optio quod sed labore molestiae laboriosam amet fugit ut est tenetur sit repellendus ea rerum hic illum error libero alias! Expedita cupiditate animi quaerat vero exercitationem ullam perferendis eos dolorum mollitia non possimus qui minus vitae enim necessitatibus odio eligendi ducimus, earum adipisci nobis architecto! Odit placeat consequuntur eius officiis, ut voluptatibus vel accusamus doloremque est illo voluptate dolores eligendi, id rerum illum alias deleniti praesentium asperiores. Quaerat enim praesentium alias quidem similique exercitationem cumque molestias numquam perspiciatis atque! Inventore voluptatum porro doloremque accusamus a soluta neque corrupti impedit. Earum modi officiis a ipsa eum iure repellat quam dolorum quas molestiae dolores dicta sunt repudiandae, nulla impedit optio ab quasi debitis ex ad. Necessitatibus praesentium minima eum deleniti repellat nisi perspiciatis, aut, minus aliquid, ea qui cupiditate adipisci non voluptatem cum labore excepturi soluta fugiat delectus. Pariatur perferendis voluptates corrupti modi hic dolore. Alias adipisci commodi mollitia consequuntur officiis natus accusantium sit aut excepturi inventore, sequi culpa optio eveniet placeat consectetur autem saepe animi veniam atque aliquid molestiae non illo? Asperiores necessitatibus minima assumenda officia, nobis maxime, aut optio aperiam nam a culpa et deserunt iste, rerum veniam quas laboriosam expedita. Quo adipisci tempore culpa placeat consequuntur recusandae, impedit, laborum tenetur voluptate ex, laudantium quibusdam! Et, culpa? Est, nobis consequatur autem cumque sequi quidem modi! Sapiente, praesentium autem placeat sit similique quisquam architecto consequuntur ipsa, magni vitae ducimus eaque cumque enim, animi reprehenderit corrupti laborum eligendi suscipit laudantium!</p>
+                <h4 id="scrollspyHeading4">Fourth heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi facilis vero cupiditate eaque quidem nemo saepe eos quia, ratione accusantium quasi ducimus rem nobis et laboriosam recusandae iusto. Aperiam amet adipisci, harum earum distinctio debitis doloremque accusantium facere cumque iusto odit vel enim tempora, veniam nemo suscipit fugiat dolor autem voluptatibus! Rerum atque similique assumenda sapiente reiciendis veritatis molestiae totam fuga excepturi? Voluptas repudiandae magnam praesentium fugiat optio architecto pariatur voluptate in, hic, error vel, cum provident. Esse dignissimos dolor, ea ex laudantium velit vitae nulla cupiditate quo repellat. Voluptates, architecto. Et possimus quia minima modi libero nihil dignissimos repudiandae?</p>
+                <h4 id="scrollspyHeading5">Fifth heading</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio iste, totam fugit aspernatur ullam, maxime eligendi amet mollitia cum, a dicta eum quas rem earum facilis deserunt quo quam assumenda aliquid. Facilis veniam, enim molestias laudantium ratione tenetur blanditiis necessitatibus ex eaque, modi id consequuntur cum est quas repudiandae temporibus praesentium voluptatem nostrum. Ratione dolorum asperiores facere? Blanditiis quos ea culpa consequuntur cupiditate magnam sit doloremque! Repellendus, unde eum ab, ipsam explicabo alias sequi non ad sapiente ut atque? Molestias vero in, consequatur vitae praesentium nisi illo repellendus, aliquam, quam et soluta dolorum maxime. Sequi aliquid voluptatem accusantium nam ipsam error eveniet molestias dolorum maxime a temporibus veniam voluptatibus veritatis blanditiis ullam sapiente sed accusamus, natus, adipisci vel rerum nesciunt quasi minima? Optio laboriosam adipisci quas dignissimos maiores. Facere maiores tempore temporibus quaerat sequi, incidunt sit ipsum quod nisi veritatis tempora optio corporis odio deserunt, nihil quas delectus, est consequuntur explicabo eos sint nostrum laborum. Voluptatem, fuga quis optio est, doloribus perferendis perspiciatis ullam dignissimos laborum commodi earum consequuntur debitis repellendus magnam eos odit inventore. Deserunt et quia unde. Recusandae fugiat ad perferendis neque dolor in optio esse. Dicta nostrum debitis id officiis sed quo deleniti in magni, quod maxime eaque distinctio, ullam veniam animi eos itaque sit. Quis culpa velit explicabo optio aspernatur. Vitae laboriosam maxime alias tenetur molestiae fuga, accusamus, cupiditate voluptates perspiciatis omnis dignissimos quo et reiciendis quam ut explicabo modi minima exercitationem at quia? Omnis adipisci aperiam ullam, voluptatibus quisquam quaerat ipsam, officia accusamus autem quis cumque placeat laudantium, vitae nihil a consectetur distinctio eligendi dignissimos error veritatis facere aliquam? Mollitia aspernatur consectetur ratione. Aperiam quae modi unde consectetur non dolorem possimus doloremque ab ratione delectus numquam, velit ex suscipit optio id dicta nostrum voluptate quisquam repellat deserunt? Similique omnis soluta deleniti ex voluptatum, provident ullam! Aperiam vitae nobis maiores voluptates ea repellendus blanditiis nihil voluptatem nisi hic aspernatur dolor mollitia sequi ipsam exercitationem obcaecati earum sunt quo rerum incidunt quia fugiat, id deserunt facilis! Tempore pariatur adipisci labore id doloremque ut blanditiis possimus, soluta perspiciatis optio aperiam veritatis sunt quia at, eos iste perferendis velit. Voluptate consectetur at aliquam non error eligendi provident qui! Totam, voluptate, non distinctio minus aspernatur libero nostrum iusto quod ea sequi reiciendis! Perspiciatis odit repudiandae dicta. Ducimus, quibusdam iusto. Vitae nostrum consequuntur nisi sit quae voluptate, quis distinctio itaque dolorem pariatur eum, minima sequi dolores numquam quod necessitatibus libero dolor debitis sed? Ex rerum, porro esse architecto aliquid fugiat quae ad odio non, delectus temporibus animi sequi expedita voluptatibus sunt provident quam. Est, consequatur? Blanditiis nesciunt pariatur delectus, culpa quibusdam eius nihil voluptas, optio et saepe odit laborum expedita quod praesentium sint. Obcaecati beatae accusamus, dolorem amet saepe adipisci et! Porro autem illo, minima, quas, tempore esse laboriosam eos sed veritatis aut dicta consequuntur obcaecati eveniet quasi fugit accusamus quia repellendus voluptas. Ipsam reprehenderit excepturi fuga eaque molestiae earum veritatis cupiditate accusantium esse deleniti, iure quam error harum doloribus distinctio repudiandae saepe cumque nobis, ad ducimus modi. Molestias alias labore suscipit voluptates perspiciatis quas inventore minus! Suscipit consequatur quaerat similique dolor alias repudiandae velit illum reprehenderit neque, nisi, dolorem quidem id ducimus, rerum dolorum ad facilis asperiores debitis? Modi nobis iure vero dolor tenetur expedita ducimus laudantium cum earum perspiciatis, odio, eius praesentium quisquam, eos ex ipsum optio veniam! Excepturi ex quos distinctio possimus, numquam totam veniam quia vel modi veritatis illum minus voluptates perferendis tempore ullam. Quo, sint deserunt! Pariatur quo, cumque enim culpa tenetur totam placeat qui voluptatem exercitationem, neque quasi iusto nesciunt. Fugiat ab at facere qui, perferendis blanditiis optio illum laboriosam sit nobis ullam tenetur ipsa aspernatur. Nisi, at odio! Obcaecati blanditiis, labore quos libero error sint quisquam vero saepe ullam, suscipit dignissimos corrupti provident dicta doloremque non aperiam esse atque dolorum ut ratione fugiat dolore, expedita totam aut? Necessitatibus dolor delectus quidem fugiat autem distinctio quas quasi praesentium eaque blanditiis dolorem recusandae, inventore omnis, illum adipisci accusantium! Cumque dignissimos illum officia! Dolore impedit quam officiis ea earum, omnis laboriosam pariatur rerum aliquid rem tenetur labore laborum soluta! Atque dolores perspiciatis dolor facilis explicabo sapiente? Autem, similique rem? Veniam, nam deleniti placeat eveniet iure nesciunt. Adipisci deserunt quibusdam assumenda sit at saepe non necessitatibus delectus, numquam aliquam? Exercitationem debitis deleniti voluptas esse, adipisci quibusdam quae qui non culpa provident nemo dolore consectetur officiis ullam quas quos itaque commodi? Et molestiae officia labore saepe facilis nam iusto illum modi, delectus veritatis vel tempore soluta quod sapiente pariatur rem fugit praesentium quas ipsum. Magni nobis corporis quidem vel, quisquam ab excepturi eveniet corrupti. Impedit adipisci quidem omnis qui aperiam in incidunt voluptas id? Nam, aperiam. In nam sed, tempore, eius iure ducimus rerum impedit odio delectus voluptates accusantium! Nesciunt explicabo corrupti autem tempora earum praesentium labore consequuntur, corporis tenetur maiores debitis cum nisi fugit vero id officiis facilis, sint nihil modi impedit voluptatum! Velit nostrum numquam mollitia accusantium esse maxime eaque. Non ipsa adipisci corrupti labore autem tenetur quae porro quam amet, facere, perspiciatis illo numquam ab voluptas voluptate nostrum! Culpa nesciunt magnam similique doloribus nemo deserunt omnis ipsum, in, asperiores voluptatem quia inventore consequatur quisquam iste! Molestias sit magnam unde ducimus, excepturi fuga! Error, laborum? Excepturi, magni facere! Asperiores similique harum praesentium incidunt qui perspiciatis eum esse voluptates exercitationem ducimus labore quis reiciendis sunt dolores quisquam iusto laudantium rerum eos ullam, enim necessitatibus corporis totam perferendis. Quae a corrupti at incidunt, unde animi. Nulla, eveniet dolores? Nisi quidem non porro alias est, facere recusandae enim vel velit pariatur obcaecati excepturi adipisci ipsa ipsam architecto veniam? Nobis voluptatibus possimus commodi sit iure libero. Harum laudantium incidunt necessitatibus corrupti quam quisquam quia exercitationem praesentium perspiciatis obcaecati odit repellat veniam sint dolore accusamus molestias perferendis est odio reiciendis suscipit, voluptatum aspernatur repellendus laborum. Pariatur, assumenda tempora aliquam commodi eius facere, quae numquam sunt veniam sapiente tempore perspiciatis minus temporibus id cupiditate aliquid possimus magni nam provident quibusdam esse. Repellat laborum inventore sint, maiores consequuntur libero repudiandae adipisci mollitia velit id facilis laudantium culpa fuga quibusdam odit numquam asperiores? Repellendus!</p>
+              </div>
+              <div class="row">
+                <div class="col-4">
+                  <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+                    <a class="p-1 rounded" href="#simple-list-item-1">Item 1</a>
+                    <a class="p-1 rounded" href="#simple-list-item-2">Item 2</a>
+                    <a class="p-1 rounded" href="#simple-list-item-3">Item 3</a>
+                    <a class="p-1 rounded" href="#simple-list-item-4">Item 4</a>
+                    <a class="p-1 rounded" href="#simple-list-item-5">Item 5</a>
+                  </div>
+                </div>
+                <div class="col-8">
+                  <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                    <h4 id="simple-list-item-1">Item 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quas nam aliquam rerum quos earum, omnis, vitae assumenda harum expedita possimus minima ipsa pariatur, fuga ratione recusandae cupiditate tenetur sequi eaque? Optio deserunt blanditiis soluta aliquid quis, repellat officia architecto pariatur voluptate. Nam adipisci molestiae pariatur vitae dolorum temporibus laboriosam nisi rem blanditiis, fuga aliquid magnam explicabo in officiis illum veritatis ad velit! Unde dolorum quod atque explicabo, dicta provident nostrum repellendus nobis ex voluptatem nemo vitae? Deserunt rerum velit ab rem facilis architecto iusto quis quo tempore saepe atque provident cum autem accusantium ipsam enim, veniam quasi, eos sit.</p>
+                    <h4 id="simple-list-item-2">Item 2</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat accusantium inventore deleniti quas minus autem iure atque facere maxime, possimus, eius voluptas officia eaque excepturi impedit aspernatur aliquam! Quisquam adipisci harum eos explicabo sequi doloribus minus dolor delectus perferendis, quos, facilis in laudantium. Sed, accusantium. Dicta, totam aut id vitae tempore, cumque dolorem, eum delectus provident sunt sapiente possimus! Maxime nisi, minus aliquid nesciunt veniam ducimus ut magni aliquam, alias quasi explicabo enim tenetur accusamus natus odio! Ducimus at sequi quam mollitia. Aut, accusantium cumque aliquid nihil magni neque facilis nulla doloremque delectus ad omnis accusamus nesciunt voluptas minima suscipit.</p>
+                    <h4 id="simple-list-item-3">Item 3</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero beatae nemo suscipit excepturi, cum odit optio ipsum rerum illo quam perspiciatis dignissimos praesentium vel doloribus tempore aliquam eveniet culpa delectus quia sapiente eum iusto! Quos cumque perspiciatis quasi voluptatibus minus! Voluptas nisi possimus sapiente qui accusamus iste consectetur rerum recusandae, veritatis libero nostrum ipsum fuga tenetur quos et ipsa velit aliquam dolor sequi facilis aut? Non, fuga modi obcaecati voluptatum quam et unde. Fugiat nobis saepe aut non similique aspernatur deserunt magni laboriosam, aperiam, praesentium et asperiores dolores! Doloremque asperiores natus repudiandae nam eum porro ad unde dolore dolorem neque.</p>
+                    <h4 id="simple-list-item-4">Item 4</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis modi minus qui aliquam voluptate debitis illo impedit omnis aliquid, cum magni? Iure architecto eius debitis inventore non suscipit dolorum temporibus nisi ipsum excepturi! Itaque, maiores quaerat fuga incidunt architecto illum impedit obcaecati delectus. Eaque nulla officiis non tenetur nemo earum. Excepturi cupiditate commodi reiciendis, qui magnam sed laboriosam. Voluptatum ea magni omnis fugit pariatur. Fuga sit voluptate, pariatur, a ab suscipit repellendus explicabo deleniti totam quas ea vitae, aliquid commodi. Voluptate, quis iure! Eaque hic temporibus natus repudiandae soluta animi numquam ipsum? Voluptatibus consectetur deleniti nemo aliquid maiores cum quibusdam?</p>
+                    <h4 id="simple-list-item-5">Item 5</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo quisquam modi iste temporibus illum voluptatibus cumque laborum fuga saepe quod autem quam cupiditate amet ab voluptate nihil tenetur recusandae veritatis ad, vitae minus porro quos! Ad omnis repudiandae expedita alias quis. Tempore, distinctio reprehenderit. Consectetur, illo rerum? Hic placeat culpa quasi. Molestiae quasi eveniet odio sunt dicta laudantium impedit natus, mollitia adipisci, corrupti temporibus sint enim optio cupiditate, recusandae nesciunt repellat. A odio praesentium id, alias recusandae quo voluptatum, laborum, hic tempore magnam quae sunt accusantium suscipit ducimus vel beatae maxime laudantium labore aperiam. Vero labore unde praesentium autem! Deleniti.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+                      <a class="p-1 rounded" href="#simple-list-item-5">Item 5</a>
+                      <a class="p-1 rounded" href="#simple-list-item-6">Item 6</a>
+                      <a class="p-1 rounded" href="#simple-list-item-7">Item 7</a>
+                      <a class="p-1 rounded" href="#simple-list-item-8">Item 8</a>
+                      <a class="p-1 rounded" href="#simple-list-item-9">Item 9</a>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                      <h4 id="simple-list-item-5">Item 5</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex unde voluptate fugiat repellat consequatur? Ad eius, rem veritatis facilis non facere at quod, harum delectus nulla molestias mollitia optio, numquam cupiditate eveniet. Blanditiis non eaque distinctio minima omnis, repudiandae hic et dolores culpa a porro nobis adipisci cupiditate quaerat veniam numquam suscipit eius quam debitis officiis odit obcaecati veritatis? Ea, obcaecati dolore distinctio deleniti porro laborum maxime repudiandae in consequuntur natus accusamus doloribus amet! Nesciunt iure nihil qui vitae aspernatur beatae explicabo neque corrupti laborum illum corporis doloremque fugiat consequuntur facilis doloribus laboriosam aperiam, et odio at provident eveniet adipisci!</p>
+                      <h4 id="simple-list-item-6">Item 6</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam minima facere repudiandae, placeat veritatis in dignissimos dicta! Recusandae possimus ex ducimus molestias nobis reiciendis libero est quaerat repudiandae voluptatibus. Deserunt, earum nihil nisi doloremque corrupti, quae deleniti dolores ex vel commodi inventore aliquid quo. Reiciendis commodi qui mollitia modi aut minus repellat quos magni odio quidem deserunt unde sed eos est eveniet distinctio enim, ipsam amet repellendus ullam consequatur voluptatem. Rem unde vel ullam, facere corrupti consectetur, minus doloremque error repellendus deserunt veniam commodi iusto ex, earum possimus. Officiis eos accusantium, amet eligendi ullam laborum error laudantium dolores? Ea, illo.</p>
+                      <h4 id="simple-list-item-7">Item 7</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius, culpa doloribus eaque obcaecati, eveniet repudiandae labore voluptas libero possimus nesciunt quis tempora ad? Voluptatibus deleniti aspernatur eligendi nostrum, tempore cum nam nobis inventore voluptatum culpa a aliquam tempora aperiam eveniet excepturi iste natus odit amet eius itaque eaque quod? Dicta distinctio aut, aliquam quod, libero itaque dolorem rerum molestias modi dignissimos eius blanditiis tenetur asperiores deleniti similique, soluta possimus? Ex neque, magnam nesciunt tenetur vero delectus ab corporis a numquam, omnis ut ratione debitis necessitatibus dolore veritatis hic ullam labore eos doloremque nulla atque reprehenderit doloribus ad? Ipsum, earum!</p>
+                      <h4 id="simple-list-item-8">Item 8</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo laboriosam perspiciatis ad eum magni, magnam amet! Ex soluta quaerat ducimus voluptate nihil! Animi ex minus ipsa repudiandae. Nihil, perferendis repudiandae, nisi vel iste atque ex doloribus quidem, voluptatum alias illo rerum molestias odit nulla nesciunt ad aspernatur? Temporibus aliquid non nulla optio perferendis fuga veniam minus id eius consequatur quis in commodi modi aperiam eos voluptate, eaque odit corrupti fugit, obcaecati, rerum eveniet. At, fugiat exercitationem facilis, sint incidunt voluptate omnis, possimus assumenda aliquam non eum officiis neque! Eaque officiis quas quod ad. Eaque, assumenda quas rerum illo iusto corrupti.</p>
+                      <h4 id="simple-list-item-9">Item 9</h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolor consectetur impedit eaque in nisi recusandae provident, aperiam nostrum sit ipsum fugit ratione inventore tempora placeat illum, eveniet distinctio, molestiae doloremque tempore? Itaque blanditiis optio quibusdam illum, in consequuntur veritatis ullam alias expedita consectetur modi, et quos repellendus minima neque voluptas voluptate corrupti explicabo! Earum voluptate quas minus totam harum doloremque, ipsum et consectetur excepturi, commodi quam sequi corrupti est tenetur, magni error facilis voluptatibus neque quia porro! Sequi in sed, provident odio numquam quibusdam eveniet similique! Et, sed non tempore at adipisci beatae cumque saepe, eos perspiciatis illo quasi.</p>
+                    </div>
+                  </div>
+                  <nav aria-label="page naviagation example">
+                  <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                  </ul>
+                 
+                </nav>
+                
+              </div>
+
+              </div>
+              
+            </div>
+            
+        </div>
+        <div class="row">
+          <div class="col">
+          <div class="position-relative m-4">
+            <div class="progress" style="height: 1px;">
+              <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <button type="button" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem;">1</button>
+            <button type="button" class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem;">2</button>
+            <button type="button" class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-secondary rounded-pill" style="width: 2rem; height:2rem;">3</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="position-relative">
+            <div class="position-absolute top-0 start-0"></div>
+            <div class="position-absolute top-0 start-50 translate-middle-x"></div>
+            <div class="position-absolute top-0 end-0"></div>
+            <div class="position-absolute top-50 start-0 translate-middle-y"></div>
+            <div class="position-absolute top-50 start-50 translate-middle"></div>
+            <div class="position-absolute top-50 end-0 translate-middle-y"></div>
+            <div class="position-absolute bottom-0 start-0"></div>
+            <div class="position-absolute bottom-0 start-50 translate-middle-x"></div>
+            <div class="position-absolute bottom-0 end-0"></div>
+          </div>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-primary position-relative">
+            Mails <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">+99 <span class="visually-hidden">unread messages</span></span>
+          </button>
+          
+          <button type="button" class="btn btn-dark position-relative">
+            Marker <svg width="1em" height="1em" viewBox="0 0 16 16" class="position-absolute top-100 start-50 translate-middle mt-1 bi bi-caret-down-fill" fill="#212529" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>
+          </button>
+          
+          <button type="button" class="btn btn-primary position-relative">
+            Alerts <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2"><span class="visually-hidden">unread messages</span></span>
+          </button>
+        </div>
+    </div>
+</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
